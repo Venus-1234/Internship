@@ -43,5 +43,3 @@ This project covers the full initial analytics workflow: data hygiene verificati
 * **Deterministic Scaling:** `UnitPrice` ($r \approx 0.72$) and `Quantity` ($r \approx 0.62$) show moderate-to-strong positive correlations with `TotalPrice`, as expected from the revenue formula.
 * **Cart Independence:** `ItemsInCart` shows virtually zero statistical correlation ($r \approx -0.01$ to $-0.03$) with `Quantity` or `UnitPrice`. A fuller cart does not predict higher checkout values in this sample.
 
-  # Combined data cleaning & EDA notebook
-└── README.md                          # Project overview and insights
